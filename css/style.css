@@ -5,3 +5,6 @@
     --additionaltext-color: #FFFFFF;
     --icon-color: #FFFFFF;
 }
+body {
+    font-family:  "Cantarell", sans-serif;
+}
