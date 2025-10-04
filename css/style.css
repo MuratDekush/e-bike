@@ -8,3 +8,59 @@
 body {
     font-family:  "Cantarell", sans-serif;
 }
+
+/* header */
+.header-page {
+line-height: 150%;
+color: var(--text-color);
+}
+
+/* hero */
+.hero-title {
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--text-color);
+}
+
+.hero-text {
+line-height: 150%;
+color: var(--text-color);
+}
+
+.hero-button {
+line-height: 150%;
+color: var(--additionaltext-color);
+}
+
+.hero-button {
+line-height: 150%;
+color: var(--text-color);
+}
+
+/* about */
+
+.about-title {
+line-height: 120%;
+letter-spacing: -0.01em;
+color: var(--text-color);
+}
+
+.about-text {
+line-height: 150%;
+color: var(--text-color)
+}
+
+/* expirience */
+.expirience-text {
+    line-height: 150%;
+text-align: center;
+color: var(--text-color);
+}
+
+.expirience-title {
+    line-height: 120%;
+letter-spacing: -0.01em;
+text-align: center;
+color: var(--text-color);
+}
+
