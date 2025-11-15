@@ -211,3 +211,14 @@ color: var(--text-color);
   line-height: 150%;
   color: var(--additionaltext-color);
 }
+
+
+.container {
+
+  width: 1344px;
+  outline: solid red;
+  padding-left: 16px ;
+  padding-right: 16px ;
+ margin-left: auto ;
+ margin-right: auto;
+}
