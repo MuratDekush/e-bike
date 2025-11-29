@@ -10,9 +10,23 @@ body {
 }
 
 /* header */
+.header-navition{
+border: 5px solid blue;
+}
 .header-page {
   line-height: 150%;
   color: var(--text-color);
+}
+
+.header-list{
+  display: flex ;
+  gap: 32px;
+
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* hero */
@@ -222,3 +236,5 @@ color: var(--text-color);
  margin-left: auto ;
  margin-right: auto;
 }
+
+
