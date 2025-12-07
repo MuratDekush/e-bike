@@ -94,6 +94,11 @@ body {
   
 }
 
+.about-logo{
+width: 48px;
+height:44px ;
+}
+
 .about-container{
 margin-right: 32px;
 }
@@ -144,6 +149,10 @@ border-radius: 8px;
   line-height: 150%;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 8px;
+  font-weight: 700;
+font-size: 16px;
+line-height: 150%;
 }
 
 .expirience-title {
@@ -152,6 +161,13 @@ border-radius: 8px;
   text-align: center;
   color: var(--text-color);
   margin-bottom: 24px;
+  font-weight: 700;
+font-size: 48px;
+}
+.expirience-info {
+  font-weight: 400;
+font-size: 16px;
+line-height: 150%;
 }
 
 .expirience-information {
@@ -160,13 +176,15 @@ border-radius: 8px;
   font-size: 18px;
   line-height: 150%;
   text-align: center;
+  margin-bottom: 40px;
 }
 
-.expirience-subtitle {
+.experience-subtitle {
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: var(--text-color);
+  margin-bottom: 8px;
 }
 
 /* precition */
