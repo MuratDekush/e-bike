@@ -205,12 +205,30 @@ body {
 padding-top: 112px;
 padding-bottom: 112px;
 }
+.presicion-box{
+ padding-top: 41.5px;
+ padding-bottom: 41.5px;
+ margin-right: 32px;
+
+}
+.precition-container{
+display: flex;
+}
 
 .precition-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: var(--text-color);
+}
+.presicion-subtext{
+  margin-bottom: 16px;
+}
+.Precision-list{
+  display: flex;
+}
+.precision-img{
+  width: 640px;
 }
 
 .presicion-title {
@@ -219,21 +237,28 @@ padding-bottom: 112px;
   line-height: 120%;
   letter-spacing: -0.01em;
   color: var(--text-color);
+  margin-bottom: 24px;
+  
 }
 
-.precition-information {
+.presicion-information {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: var(--text-color);
+  margin-bottom: 32px;
 }
 
-.precition-subtitle {
+.presicion-subtitle {
   font-weight: 700;
   font-size: 20px;
   line-height: 140%;
   letter-spacing: -0.01em;
   color: var(--text-color);
+margin-bottom: 16px;
+}
+.presicion-item{
+  margin-right: 24px;
 }
 
 /* gallery */
@@ -248,6 +273,7 @@ padding-bottom: 112px;
   letter-spacing: -0.01em;
   text-align: center;
   color: var(--text-color);
+  margin-bottom:24px ;
 }
 
 .gallery-text {
@@ -256,6 +282,14 @@ padding-bottom: 112px;
   line-height: 150%;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 80px;
+}
+.gallery-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 640px;
+  gap: 32px;
 }
 
 /* feedbacks */
@@ -265,13 +299,32 @@ padding-bottom: 112px;
   line-height: 120%;
   letter-spacing: -0.01em;
   color: var(--text-color);
+  margin-bottom: 24px;
 }
-
+ 
+.feedbacks{
+  padding-top: 112px;
+  padding-bottom: 112px;
+}
+.feedbacks-list{
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+ 
+}
+.feedbacks-item{
+   width: 416px;
+   height: 218px;
+   outline: auto;
+}
 .feedbacks-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: var(--text-color);
+}
+.feedbacks-subtext{
+  margin-bottom: 80px;
 }
 
 .feedbacks-names {
@@ -280,7 +333,10 @@ padding-bottom: 112px;
   line-height: 150%;
   color: var(--text-color);
 }
-
+.feedbacks-img{
+  width: 116px;
+  margin-bottom: 32px;
+}
 /* price */
 .price-title {
   font-weight: 700;
