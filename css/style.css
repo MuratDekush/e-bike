@@ -357,7 +357,7 @@ display: flex;
 }
 .price-box {
   flex-direction: column;
-  
+  margin-left: 32px;
 }
 .price-subtitle {
   font-weight: 700;
@@ -380,7 +380,11 @@ display: flex;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  color: var(--additionaltext-color);
+  background-color: var(--accent-color);
+  color: white;
+  width: 320px;
+  height: 48px;
+  border-radius: 6px;
 }
 
 /* footer */
@@ -394,8 +398,8 @@ display: flex;
   height: 129px;
 }
 .footer-img{
-  width: 44px;
-  height: 44px;
+width: 24px;
+height: 24px;
 }
 .footer-link {
   font-weight: 400;
@@ -409,6 +413,7 @@ display: flex;
   font-size: 14px;
   line-height: 150%;
   color: var(--additionaltext-color);
+  text-align: center;
 }
 
 .container {
@@ -420,7 +425,7 @@ display: flex;
   margin-right: auto;
 }
 
-.footer-container{
+.footer-box{
   display: flex;
   justify-content: space-between;
 align-items: center;
