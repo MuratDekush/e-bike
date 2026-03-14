@@ -49,7 +49,11 @@ body {
   font-size: 56px;
   line-height: 120%;
   letter-spacing: -0.01em;
-  color: var(--text-color);
+  color: transparent;
+  background-image: url(https://i.pinimg.com/originals/f9/6d/fb/f96dfb9f9d4e0b42af3888de8b9473a7.gif);
+background-clip: text;
+background-size: cover;
+background-position: bottom;
 }
 
 .hero-text {
